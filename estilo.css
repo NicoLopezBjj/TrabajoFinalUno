@@ -3,6 +3,11 @@
     margin:0;
 }
 
+header{
+    height: 2rem;
+    
+}
+
 .contenedorFlex{
     display: flex;
     justify-content: space-evenly;
