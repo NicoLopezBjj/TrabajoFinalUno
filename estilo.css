@@ -28,6 +28,7 @@
 
 .imagenesFlex{
     display:flex;
+    width: auto;
 }
 
 .quinta{
