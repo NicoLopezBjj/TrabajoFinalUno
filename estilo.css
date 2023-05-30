@@ -26,6 +26,10 @@
     background-color: brown;
 }
 
+.imagenesFlex{
+    display:flex;
+}
+
 .quinta{
     background-color: blueviolet;
 }
