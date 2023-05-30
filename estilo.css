@@ -33,6 +33,14 @@ header{
     background-color:coral;
 }
 
+.centrar{
+    text-align: center;
+}
+.logros{
+    display:flex;
+    justify-content: space-evenly;
+}
+
 .cuarta{
     background-color: brown;
 }
