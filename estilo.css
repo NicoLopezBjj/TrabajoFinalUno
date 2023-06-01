@@ -22,11 +22,19 @@ header{
 }
 
 .hero{
-    background-color: aqua;
+    background-color:#F4F4F4;
     display: flex;
     align-items: center;
 }
 
+.botNegro{
+    background-color: #201F20;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold ;
+    padding: 0.6rem 1.5rem;
+    border: none;
+}
 .segunda{
     background-color: aquamarine;
 }
@@ -117,4 +125,13 @@ header{
 .tercerInput{
     width: 40rem;
     height: 10rem;
+}
+
+.botNegros{
+    background-color: #201F20;
+    color: white;
+    font-weight: bold ;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 0.3rem;
 }
