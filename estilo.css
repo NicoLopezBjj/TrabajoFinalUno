@@ -56,4 +56,33 @@ header{
 
 .secta{
     background-color: darkolivegreen;
+
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primerInput{
+    display: flex;
+    width: 42rem;
+    margin-bottom: 0.5rem;
+}
+
+.veinte{
+    width: 19.87rem;
+    height: 2rem;
+}
+
+.segundoInput{
+    width: 40rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.tercerInput{
+    width: 40rem;
+    height: 10rem;
 }
