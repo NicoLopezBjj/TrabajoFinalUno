@@ -102,9 +102,14 @@ header{
 .fondo{
     background-color: #A4581B;
 }
-.blanco{
+.blancoFont{
     color: white;
 }
+
+.blancoFondo{
+    background-color: #FFFFFF;
+}
+
 .primerInput{
     display: flex;
     width: 42rem;
