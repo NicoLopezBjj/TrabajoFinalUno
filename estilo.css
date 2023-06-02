@@ -21,22 +21,63 @@ header{
     justify-content: space-evenly;
 }
 
+/* HERO */
+
 .hero{
     background-color:#F4F4F4;
     display: flex;
     align-items: center;
 }
 
+.colorGris{
+    color: #696466;
+}
+
+.primerParrafo{
+     font-size: 1.2rem;
+}
+
+.primerTitulo{
+    font-size: 3rem;
+}
+
+.izquierda{
+    padding-left: 15rem;
+}
+
+.derecha{
+    padding-left: 8rem;
+}
+
+.paAbajo{
+    padding-bottom: 2rem;
+}
 .botNegro{
     background-color: #201F20;
     color: white;
     text-transform: uppercase;
     font-weight: bold ;
-    padding: 0.6rem 1.5rem;
+    padding: 0.8rem 1.5rem;
     border: none;
 }
+
+/* Segunda Seccion */
+
 .segunda{
     background-color: aquamarine;
+}
+
+.padding{
+    padding: 2rem 0 1rem 4rem;
+}
+
+.marron{
+    color: #A4581B;
+}
+
+.lugar{
+    padding: 1rem 0 1rem 4rem;
+    margin-left: 4rem;
 }
 
 .linea{
@@ -44,6 +85,8 @@ header{
     border-top: 1px solid gray;
     opacity: 0.3;
 }
+
+/* Tercera Seccion */
 
 .tercera{
     background-color:coral;
@@ -56,6 +99,8 @@ header{
     display:flex;
     justify-content: space-evenly;
 }
+
+/* Cuarta Seccion */
 
 .cuarta{
     background-color: brown;
@@ -73,9 +118,14 @@ header{
 .space{
     justify-content: space-around;
 }
+
+/* Quinta seccion */
+
 .quinta{
     background-color: blueviolet;
 }
+
+/* Secta seccion */
 
 .secta{
     background-color: darkolivegreen;
