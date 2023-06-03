@@ -91,6 +91,10 @@ a:hover{
     align-items: center;
 }
 
+.miFoto{
+    
+}
+
 .colorGris{
     color: #696466;
     font-size: small;
@@ -249,6 +253,9 @@ a:hover{
     justify-content: space-between;
 }
 
+.right{
+    padding-right: 4rem;
+}
 .adentro{
     padding-left: 4rem;
     padding-bottom: 2rem;
