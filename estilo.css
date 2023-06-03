@@ -151,12 +151,24 @@ header{
 /* Cuarta Seccion */
 
 .cuarta{
-    background-color: brown;
+    background-color: white;
 }
 
+.empuje{
+    margin: 0 4rem 0 4rem;
+}
 .imagenesFlex{
     display:flex;
     align-items: center;
+    margin: 0 2rem 0 2rem;
+}
+
+.colocar{
+    padding: 4rem 0 2rem 0;
+}
+
+.colocarLinea{
+    padding-bottom: 2rem;
 }
 
 .ancho{
