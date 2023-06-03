@@ -183,9 +183,28 @@ header{
 /* Quinta seccion */
 
 .quinta{
-    background-color: blueviolet;
+    background-color: #F9F9F9;
+    padding: 4rem 0 4rem 0;
 }
 
+.contenedorFlexDos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adentro{
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.bottomUno{
+    padding-bottom: 1rem;
+}
+
+.posicion{
+    margin: 0 4rem 0 4rem;
+    padding-bottom: 2rem;
+}
 /* Secta seccion */
 
 .secta{
