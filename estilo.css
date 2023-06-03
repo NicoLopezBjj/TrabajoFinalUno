@@ -36,6 +36,7 @@ header{
 
 .colorGris{
     color: #696466;
+    font-size: small;
 }
 
 .primerParrafo{
@@ -70,6 +71,7 @@ header{
 
 .segunda{
     background-color: #ffffff;
+    padding-bottom: 5rem;
 }
 
 .padding{
@@ -105,9 +107,26 @@ header{
 /* Tercera Seccion */
 
 .tercera{
-    background-color:coral;
+    background-color: #F9F9F9;
 }
 
+.otroGris{
+    background-color: #F3F3F3;
+}
+.relleno{
+    padding: 3rem 0 3rem 0;
+}
+
+.max{
+    padding: 3rem 0 3rem 0;
+}
+
+.paArriba{
+    padding-top: 2rem;
+}
+.spacing{
+    letter-spacing: 0.2rem;
+}
 .centrar{
     text-align: center;
 }
