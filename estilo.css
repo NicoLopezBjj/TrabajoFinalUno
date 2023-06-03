@@ -69,6 +69,19 @@ a{
 .wp{
     padding-left: 1rem;
 }
+
+/* HOVER */
+
+button:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: 0.8s;
+}
+
 /* HERO */
 
 .hero{
@@ -252,7 +265,8 @@ a{
 /* Secta seccion */
 
 .secta{
-    background-color: darkolivegreen;
+    padding-bottom: 4rem;
+    background-color: #A4581B;
 
 }
 
@@ -291,10 +305,13 @@ a{
 }
 
 .veinte{
-    width: 19.87rem;
+    width: 19.65rem;
     height: 2rem;
 }
 
+.marginLeft{
+    margin-left: 0.4rem;
+}
 .segundoInput{
     width: 40rem;
     height: 2rem;
@@ -313,6 +330,16 @@ a{
     padding: 0.6rem 1.5rem;
     border: none;
     border-radius: 0.3rem;
+}
+
+.botMarron{
+    background-color: #9D6634;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    align-items: center;
+    border: none;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
 }
 
 .uno{
