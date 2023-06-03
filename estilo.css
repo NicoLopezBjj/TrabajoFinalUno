@@ -72,10 +72,15 @@ header{
 .segunda{
     background-color: #ffffff;
     padding-bottom: 5rem;
+    margin-right: 4rem;
 }
 
 .padding{
     padding: 2rem 0 1rem 4rem;
+}
+
+.texto{
+   margin-right: 2rem;
 }
 
 .marron{
@@ -103,16 +108,18 @@ header{
 
 .left{
     padding-left: 4rem;
+    line-height: 1.5rem;
 }
 /* Tercera Seccion */
 
 .tercera{
     background-color: #F9F9F9;
+    margin: 0 4rem 0 4rem;
 }
 
 .masGrande{
     font-size: 3rem;
-    color:#201F20;
+    color:#444448;
 }
 
 .otroGris{
