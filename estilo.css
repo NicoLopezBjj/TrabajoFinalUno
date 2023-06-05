@@ -504,9 +504,16 @@ a:hover{
         flex-direction: column;
     }
 }
-@media(max-width:1024px)and(min-width:760px){
-    .quinta{
+
+@media (min-width:760px) and (max-width:1024px){
+    .notLinea{
+        display: none;
+    }
+    .centrado{
         align-items: center;
+    }
+    .sinPadding{
+        padding: 0;
     }
 }
 @media(max-width:760px){
@@ -525,6 +532,7 @@ a:hover{
     .contenedorFlexDos{
         display:flex;
         flex-direction: column;
+        align-items: center;
     }
     .menu, .iconos{
         display:none;  
@@ -562,4 +570,8 @@ a:hover{
     .paddingLeft{
         padding-left: 2rem;
     }
+    .notLinea{
+        display:none;
+    }
 }
+
