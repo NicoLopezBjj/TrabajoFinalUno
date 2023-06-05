@@ -198,12 +198,15 @@ a:hover{
 .paArriba{
     padding-top: 1rem;
 }
+
 .spacing{
     letter-spacing: 0.2rem;
 }
+
 .centrar{
     text-align: center;
 }
+
 .logros{
     display:flex;
     justify-content: space-evenly;
@@ -225,6 +228,16 @@ a:hover{
     margin: 0 2rem 0 2rem;
 }
 
+.bold {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.corazon {
+    color: #9D6634;
+    margin-right: 0.3rem;
+}
+
 .colocar{
     padding: 4rem 0 2rem 0;
 }
@@ -234,11 +247,14 @@ a:hover{
 }
 
 .ancho{
-    width: 90%;
+    width: 100%;
 }
 
+.margin{ 
+    margin: 0 1rem;
+}
 .space{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 /* Quinta seccion */
