@@ -1,24 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather+Sans:wght@400;700&family=Pathway+Extreme:wght@400;700&display=swap');
 
-/* MEDIA QUERIES */
-@media(max-width:760px){
-    .derecha{
-        display:none;
-    }
-}
-@media(max-width:760px){
-    .imagenesFlex{
-        display:flex;
-        flex-direction: column;
-    }
-}
-
 *{
     padding: 0;
     margin:0;
 }
 
 body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+input::placeholder, textarea::placeholder{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -283,9 +274,6 @@ a:hover{
     align-items: center;
 }
 
-.espacio{
-    padding-top: 5rem;    
-}
 .dobleTop{
     margin-top: 1.5rem;
     margin-bottom: 5rem;
@@ -305,31 +293,36 @@ a:hover{
     background-color: #FFFFFF;
 }
 
-.primerInput{
-    display: flex;
+.contenedorInput{
     width: 42rem;
-    margin-bottom: 0.5rem;
 }
 
-.veinte{
-    width: 19.65rem;
-    height: 2rem;
+.primerInput{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.5rem;
 }
+ 
+.veinte{
+    width: 50%;
+    height: 2rem;
+} 
 
 .marginLeft{
     margin-left: 0.4rem;
 }
 .segundoInput{
-    width: 40rem;
-    height: 2rem;
+    width: 100%;
+    height: 2rem; */
     margin-bottom: 0.5rem;
+    border: none;
 }
 
 .tercerInput{
-    width: 40rem;
+    width: 100% ;
     height: 10rem;
+    margin-top: 0.5rem;
 }
-
 .botNegros{
     background-color: #201F20;
     color: white;
@@ -349,6 +342,10 @@ a:hover{
     margin-top: 1rem;
 }
 
+.paTodo{
+    padding: 5rem 2rem 0 2rem;
+    text-align: center; 
+}
 .uno{
     width: 50%;
     height: 0.5rem;
@@ -358,3 +355,19 @@ a:hover{
     background-color: red ;
     height: 100%
   }
+
+  /* MEDIA QUERIES */
+@media(max-width:760px){
+    .derecha{
+        display:none;
+    }
+}
+@media(max-width:760px){
+    .imagenesFlex{
+        display:flex;
+        flex-direction: column;
+    }
+    .contenedorInput{
+        width: 20rem;
+    }
+}
