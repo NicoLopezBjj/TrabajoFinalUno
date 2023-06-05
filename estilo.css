@@ -21,7 +21,7 @@ h1{
 
 header{
     height: 2rem;
-    background-color: #A4581B;
+    background-color:#854F24;
     font-size: small;
     padding-top: 1rem;
     color:white; 
@@ -32,6 +32,7 @@ header{
 .contenedorFlex{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .iconos{
@@ -82,6 +83,21 @@ a:hover{
     transition: 0.3s;
 }
 
+.imgHover:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+.burger:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.burger{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 /* HERO */
 
 .hero{
@@ -89,10 +105,7 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.miFoto{
-    
+    height: 1080px;
 }
 
 .colorGris{
@@ -114,8 +127,11 @@ a:hover{
 
 .derecha{
     padding-left: 5rem;
+    height: 100%;
 }
-
+.miFoto{
+    height: 100%;
+}
 .paAbajo{
     padding-bottom: 2rem;
 }
@@ -347,7 +363,7 @@ a:hover{
 
 .secta{
     padding-bottom: 4rem;
-    background-color: #A4581B;
+    background-color: #854F24;
 
 }
 
@@ -366,7 +382,7 @@ a:hover{
    padding-bottom: 1.5rem;
 }
 .fondo{
-    background-color: #A4581B;
+    background-color: #854F24;
 }
 .blancoFont{
     color: white;
@@ -433,7 +449,20 @@ a:hover{
 
 
   /* MEDIA QUERIES */
-@media(max-width:1024px){
+@media(min-width:761px){
+    .burger{
+        display: none;
+    }
+}
+
+
+  @media(max-width:1160px){
+    .hero{
+        height: 100%;
+    }
+}
+
+  @media(max-width:1024px){
     .contenedorFlexDos{
         display:flex;
         flex-direction: column;
@@ -457,10 +486,15 @@ a:hover{
         display:flex;
         flex-direction: column;
     }
-    header{
-        display:none
+    .menu, .iconos{
+        display:none;  
     }
     .anchoPorcentajes{
         width: 20rem;
     }
+    .cuarta .imagenesFlex img{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
+
