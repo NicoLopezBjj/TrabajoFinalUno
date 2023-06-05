@@ -272,8 +272,6 @@ a:hover{
     font-size:x-small;
 }
 
-
-
 .leftDos{
     width: 50%;
 }
@@ -283,6 +281,30 @@ a:hover{
     width: 50%;
     padding-left: 3rem;
 }
+
+.pt2{
+    margin-top: 2rem;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 1rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color{
+    color: black;
+}
+
+.pb{
+    padding-bottom: 1rem;
+}
+
 .adentro{
     padding-left: 4rem;
     padding-bottom: 2rem;
