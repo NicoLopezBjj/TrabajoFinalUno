@@ -347,8 +347,8 @@ a:hover{
 }
 
 .size{
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 .pr{
     padding-right: 1rem;
@@ -529,8 +529,6 @@ circle:nth-child(2){
     text-align: center; 
 }
 
-
-
   /* MEDIA QUERIES */
 @media(min-width:761px){
     .burger{
@@ -561,13 +559,15 @@ circle:nth-child(2){
     .sinPadding{
         padding: 0;
     }
-}
-@media(max-width:760px){
-    .derecha{
-        display:none;
+    .ptResponsive {
+        margin-top: 3rem;
     }
-}
+        }
+
 @media(max-width:760px){
+    .derecha {
+            display: none;
+        }
     .imagenesFlex{
         display:flex;
         flex-direction: column;
@@ -619,5 +619,22 @@ circle:nth-child(2){
     .notLinea{
         display:none;
     }
+    .ptResponsive{
+        margin-top: 3rem;
+    }
+    .sizeResponsive{
+        width: 2rem;
+        height: 2rem;
+    }
+    .pr{
+        width: 250px;
+    }
 }
-
+@media(max-width:420px){
+    .not{
+        display: none;
+    }
+    .ml{
+        margin-left: 2rem;
+    }
+}
