@@ -70,7 +70,7 @@ a{
 
 button:hover{
     transform: scale(1.02);
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 a:hover{
@@ -79,8 +79,8 @@ a:hover{
 }
 
 .svgclase:hover{
-    transform: scale(1.3);
-    transition: 0.3s;
+    transform: scale(1.2);
+    transition: 0.4s;
 }
 
 .imgHover:hover{
@@ -89,7 +89,7 @@ a:hover{
 }
 
 .burger:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     transition: 0.3s;
 }
 
@@ -342,8 +342,27 @@ a:hover{
     color: black;
 }
 
+.pl{
+    padding-left: 1rem;
+}
+
+.size{
+    width: 2rem;
+    height: 2rem;
+}
+.pr{
+    padding-right: 1rem;
+}
 .pb{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+}
+
+.mt{
+    margin-top: 5rem;
+}
+
+.flexMas{
+    display: flex;
 }
 
 .adentro{
@@ -389,21 +408,6 @@ circle:nth-child(2){
     color: #201F20;
 }
 
-
-
-
-
-/* .circleDos{
-    border-radius: 50%;
-    border: 0.5rem solid #9D6634
-} */
-
-/* .circulo{
-    border-radius: 50%;
-    border: 0.5rem solid #A4581B;
-    padding: 3rem 3rem;
-} */
-
 .cuadradoFlex{
     display: flex;
 }
@@ -436,6 +440,8 @@ circle:nth-child(2){
     margin: 0 4rem 0 4rem;
     padding-bottom: 2rem;
 }
+
+
 /* Secta seccion */
 
 .secta{
