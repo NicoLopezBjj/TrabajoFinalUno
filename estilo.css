@@ -358,11 +358,51 @@ a:hover{
 .mb{
     margin-top: 2rem;
 }
+circle{
+    fill: none;
+    stroke: #EBEBEC;
+    stroke-width: 5px;
+    stroke-dasharray: 100 100;
+    transform-origin: 50%;
+    transform: rotate(-90deg);
+}
+
+circle:nth-child(2){
+    stroke: #A4581B;
+    stroke-dasharray: var(--porcentaje) 100;
+}
+
 .circulo{
+    position: relative;
+}
+
+.circulo span{
+    position: absolute;
+    top:0%;
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: #201F20;
+}
+
+
+
+
+
+/* .circleDos{
+    border-radius: 50%;
+    border: 0.5rem solid #9D6634
+} */
+
+/* .circulo{
     border-radius: 50%;
     border: 0.5rem solid #A4581B;
     padding: 3rem 3rem;
-}
+} */
 
 .cuadradoFlex{
     display: flex;
